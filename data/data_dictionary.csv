@@ -1,0 +1,23 @@
+Variable Name,Description,Data Type,Unit/Range,Role
+observation_id,Unique observation identifier,Text,N/A,Identifier
+repository,Anonymized public repository/project label,Categorical,5 sample repositories,Grouping
+sprint_id,Two-week development sprint identifier,Text,SPR-01 onward,Grouping
+sprint_start_date,Sprint start date,Date,YYYY-MM-DD,Time
+commit_frequency,Number of commits in the sprint,Integer,Count,Feature
+commit_size,Average lines changed per commit,Integer,Lines,Feature
+pr_merge_time_hours,Average pull-request creation-to-merge time,Continuous,Hours,Feature
+pr_acceptance_rate,Ratio of merged/accepted pull requests,Continuous,0–1,Feature
+issue_resolution_time_hours,Average time to close issues,Continuous,Hours,Feature
+issue_reopen_rate,Proportion of reopened issues,Continuous,0–1,Feature
+test_coverage,Proportion of code covered by tests,Continuous,0–1,Feature
+test_failure_rate,Proportion of failed automated tests,Continuous,0–1,Feature
+code_churn,"Lines added, deleted, or modified",Integer,Lines,Feature
+review_comment_count,Average review comments per pull request,Integer,Count,Feature
+requirement_traceability_rate,Ratio of implemented items linked to requirements,Continuous,0–1,Feature
+aspice_readiness_score,Synthetic composite readiness score,Continuous,0–1,Target
+aspice_readiness_level,Synthetic readiness class,Ordinal categorical,L0–L5,Target
+bp_SWE_1_compliance,Illustrative SWE.1 compliance indicator,Binary,0/1,Target
+bp_SWE_4_compliance,Illustrative SWE.4 compliance indicator,Binary,0/1,Target
+bp_SWE_5_compliance,Illustrative SWE.5 compliance indicator,Binary,0/1,Target
+bp_SUP_1_compliance,Illustrative SUP.1 compliance indicator,Binary,0/1,Target
+process_area,Process area with the lowest illustrative evidence score,Categorical,SWE.1/SWE.4/SWE.5/SUP.1,Diagnostic

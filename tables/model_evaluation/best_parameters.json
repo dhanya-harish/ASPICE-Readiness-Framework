@@ -1,0 +1,29 @@
+{
+  "Logistic Regression": {
+    "classifier__C": 10,
+    "classifier__solver": "lbfgs"
+  },
+  "Random Forest": {
+    "classifier__max_depth": null,
+    "classifier__min_samples_leaf": 1,
+    "classifier__min_samples_split": 2,
+    "classifier__n_estimators": 100
+  },
+  "XGBoost": {
+    "classifier__learning_rate": 0.1,
+    "classifier__max_depth": 2,
+    "classifier__n_estimators": 50,
+    "classifier__subsample": 0.8
+  },
+  "LightGBM": {
+    "classifier__learning_rate": 0.1,
+    "classifier__max_depth": -1,
+    "classifier__n_estimators": 100,
+    "classifier__num_leaves": 7
+  },
+  "Support Vector Machine": {
+    "classifier__C": 1,
+    "classifier__gamma": "scale",
+    "classifier__kernel": "linear"
+  }
+}

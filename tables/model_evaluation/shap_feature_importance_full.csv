@@ -1,0 +1,10 @@
+Rank,Feature,Mean |SHAP|,Contribution (%)
+1,avg_commit_size,1.2448,38.43
+2,avg_files_per_commit,0.521,16.09
+3,commit_frequency,0.4507,13.92
+4,code_churn,0.4314,13.32
+5,unique_authors,0.3703,11.43
+6,author_diversity_ratio,0.2207,6.81
+7,merge_commit_rate,0.0,0.0
+8,avg_dmm_unit_size,0.0,0.0
+9,avg_dmm_complexity,0.0,0.0

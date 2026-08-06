@@ -1,0 +1,9 @@
+Configuration Parameter,Value,Description
+Hyperparameter Optimisation,GridSearchCV,Exhaustive search over predefined hyperparameter combinations
+Cross-validation Strategy,Stratified K-Fold,Preserves readiness class distribution across folds
+Number of Folds,10 (maximum)*,Maximum of ten folds; determined by the smallest readiness class
+Scoring Metric,Macro F1-score,Optimises balanced performance across all readiness classes
+Parallel Processing,n_jobs = -1,Uses all available CPU cores
+Refit Best Model,Yes,Retrains the best-performing model
+Return Training Score,No,Training scores not retained
+Random State,42,Ensures reproducible model training

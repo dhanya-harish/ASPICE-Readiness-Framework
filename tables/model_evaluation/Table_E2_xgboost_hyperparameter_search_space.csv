@@ -1,0 +1,5 @@
+Parameter,Values Evaluated,Purpose
+n_estimators,"50, 100",Number of decision trees in the forest
+max_depth,"2, 3, 5",Maximum depth of each decision tree
+learning_rate,"0.03, 0.1",Learning rate controlling boosting step size
+subsample,"0.8, 1.0",Fraction of training samples used during boosting

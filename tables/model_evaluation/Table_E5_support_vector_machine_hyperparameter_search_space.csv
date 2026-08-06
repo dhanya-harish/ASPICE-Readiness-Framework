@@ -1,0 +1,4 @@
+Parameter,Values Evaluated,Purpose
+C,"0.1, 1, 10",Inverse regularisation strength
+kernel,"linear, rbf",Kernel function used for classification
+gamma,"scale, auto",Kernel coefficient

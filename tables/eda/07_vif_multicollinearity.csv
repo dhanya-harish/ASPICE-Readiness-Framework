@@ -1,10 +1,10 @@
 Feature,VIF
-avg_files_per_commit,42.69585790395912
+avg_files_per_commit,42.69585790395892
 avg_commit_size,36.83938603405446
 commit_frequency,16.33531226385663
 code_churn,8.462555475566935
 unique_authors,4.780238133095509
-merge_commit_rate,2.8199949510633937
-avg_dmm_complexity,1.6937615185687487
+merge_commit_rate,2.8199949510633955
+avg_dmm_complexity,1.6937615185687485
 author_diversity_ratio,1.5471463936125356
 avg_dmm_unit_size,1.1060702185261515

@@ -1,0 +1,29 @@
+{
+  "best_model_name": "LightGBM",
+  "feature_columns": [
+    "commit_frequency",
+    "unique_authors",
+    "avg_commit_size",
+    "code_churn",
+    "avg_files_per_commit",
+    "merge_commit_rate",
+    "avg_dmm_unit_size",
+    "avg_dmm_complexity",
+    "author_diversity_ratio"
+  ],
+  "class_order": [
+    "Low",
+    "Moderate",
+    "High"
+  ],
+  "target_column": "aspice_readiness_level",
+  "score_column": "repository_aspice_readiness_score",
+  "outer_cv_folds": 10,
+  "final_gridsearch_cv_folds": 5,
+  "final_best_parameters": {
+    "classifier__learning_rate": 0.1,
+    "classifier__max_depth": -1,
+    "classifier__n_estimators": 100,
+    "classifier__num_leaves": 7
+  }
+}
